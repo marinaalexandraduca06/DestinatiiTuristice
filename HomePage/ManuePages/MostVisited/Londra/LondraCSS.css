@@ -1,0 +1,36 @@
+a{
+    color: black;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+
+a:active{
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+#marea-britanie-anglia{
+    margin: 2%;
+    margin-bottom: 10%; 
+}
+
+#marea-britanie-anglia-desc{
+    text-indent: 3%;
+}
+
+#marea-britanie-anglia-img{
+    max-width: 300px;
+    height: auto;
+    float: right;
+    margin-left: 2%;
+}

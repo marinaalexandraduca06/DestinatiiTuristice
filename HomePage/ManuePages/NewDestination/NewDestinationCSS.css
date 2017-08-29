@@ -1,0 +1,27 @@
+#chenar{
+    height: 60%;
+    width: 60%;
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    background-color: #b3b3b3;
+}
+
+h2{
+    margin-top: 10%;
+    color: black;
+    text-align: center;
+}
+
+form{
+    margin-top: 7%;
+    color: black;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px){
+    h2{
+        margin-top: 30%;
+    }
+}
+

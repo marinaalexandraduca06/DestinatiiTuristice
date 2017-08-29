@@ -1,0 +1,26 @@
+#oras {
+    position: absolute;
+    left: 11%;
+    width: 74%;
+    height: 91%;
+    top: 0;
+    margin: 2%;
+}
+
+#previous {
+    position: absolute;
+    left: 0%;
+    width: 7%;
+    height: 30%;
+    top: 34%;
+    margin: 2%;
+}
+
+#next {
+    position: absolute;
+    left: 89%;
+    width: 7%;
+    height: 30%;
+    top: 34%;
+    margin: 2%;
+}

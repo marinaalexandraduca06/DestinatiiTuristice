@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <title>DestinatiiTuristice</title>
+        <link rel="stylesheet" type="text/css" href="HomePageCSS.css"/>
+        <script src="HomePageJS.js"></script>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    
+    <body>
+        
+        <div id="antet">
+            
+            <h1>Destinatii turistice</h1>
+            <ul id='lista'>
+                <a href="../LogInPage/LogInPageHTML.html" style="text-indent: 4px;">Log in</a>
+                <a style="text-indent: 4px;"> | </a>
+                <a href="../SignUpPage/SignUpPageHTML.html">Sign up</a>
+            </ul>
+            
+            <p id='username'></p>
+            
+            <a href="HomePageHTML.html" onclick="logout()" id='logout'>Log out</a>
+            
+        </div>
+        
+        <div id="meniu">
+            
+            <div class="optiune" id='o1' onmouseover="optiune_over('o1')" onmouseout="optiune_out('o1')">
+                <a href='ManuePages/AboutUs/AboutUsHTML.html' target="ecran" onclick="ecranactiv('o1')">Despre noi</a>
+            </div>
+            
+            <div class="optiune" id='o2' onmouseover="optiune_over('o2')" onmouseout="optiune_out('o2')">
+                <a href="ManuePages/MostVisited/MostVisetedHTML.html" target="ecran" onclick="ecranactiv('o2')">Cele mai vizitate destinatii</a>
+            </div>
+            
+            <div class="optiune" id='o3' onmouseover="optiune_over('o3')" onmouseout="optiune_out('o3')">
+                <a href="ManuePages/DestinationsList/DestinationsListHTML.html" target="ecran" onclick="ecranactiv('o3')">Lista completa a destinatiilor</a>
+            </div>
+            
+            <div class="optiune" id='o4' onmouseover="optiune_over('o4')" onmouseout="optiune_out('o4')">
+                <a href='ManuePages/NewDestination/NewDestinationHTML.html' target="ecran" onclick="ecranactiv('o4')">Sugereaza o noua destinatie</a>
+            </div>
+            
+            <div class="optiune" id='o5' onmouseover="optiune_over('o5')" onmouseout="optiune_out('o5')">
+                <a href='ManuePages/Contact/ContactHTML.html' target="ecran" onclick="ecranactiv('o5')">Contact</a> 
+            </div>
+             
+            <div class="optiune" id="o6" onmouseover="optiune_over('o6')" onmouseout="optiune_out('o6')">
+                <a href='ManuePages/MyProfile/MyProfileHTML.html' target="ecran" onclick="ecranactiv('o6')">Profilul meu</a>
+            </div>
+            
+        </div>
+        
+        <iframe src="ManuePages/AboutUs/AboutUsHTML.html" name="ecran" id='ecran'></iframe>
+        
+    </body>
+    
+</html>
