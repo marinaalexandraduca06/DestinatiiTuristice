@@ -1,2 +1,2 @@
 <?php
-redirect('/HomePage/HomePageHTML.html');
+header('Location: HomePage/HomePageHTML.html');
