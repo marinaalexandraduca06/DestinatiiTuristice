@@ -6,9 +6,9 @@ onload = () => {
     let t=document.getElementById('ecran');
     t.src="ManuePages/AboutUs/AboutUsHTML.html";
     
-    if(sessionStorage.getItem('user') != 'null'){
+    if(localStorage.getItem('user') != 'null'){
         document.getElementById('lista').style.display="none";
-        document.getElementById('username').innerHTML=sessionStorage.getItem('user');
+        document.getElementById('username').innerHTML=localStorage.getItem('user');
         document.getElementById('logout').style.display='block';
     }
 }
@@ -32,5 +32,6 @@ function optiune_out(id){
 }
 
 function logout(){
-    sessionStorage.setItem('user', 'null');
+    localStorage.setItem('user', 'null');
+    location.reload();
 }
