@@ -6,7 +6,7 @@ onload = () => {
     let t=document.getElementById('ecran');
     t.src="ManuePages/AboutUs/AboutUsHTML.html";
     
-    if(localStorage.getItem('user') != 'null'){
+    if(localStorage.getItem('user') != 'null' && localStorage.getItem('user') != null){
         document.getElementById('lista').style.display="none";
         document.getElementById('username').innerHTML=localStorage.getItem('user');
         document.getElementById('logout').style.display='block';
